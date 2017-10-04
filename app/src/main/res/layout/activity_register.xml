@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#2C2624">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_weight="0.62" />
+
+    <EditText
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:id="@+id/etEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:ems="10"
+        android:hint="@string/pass"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/rgbutton"
+        android:layout_width="169dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:text="@string/register"
+        android:onClick="register"
+        android:layout_weight="0.01" />
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="25dp"
+        android:onClick="back"
+        android:text="@string/back_menu"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="105dp"
+        android:visibility="invisible"
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:textColor="#FF0000"
+        android:text="@string/user_pass_error" />
+
+
+</LinearLayout>

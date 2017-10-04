@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Team Aura</string>
+    <string name="user_pass_error">Falta usuario o contraseña</string>
+    <string name="back_menu">Volver al menu</string>
+    <string name="register">Registrarse</string>
+    <string name="pass">Contraseña</string>
+    <string name="email">Email</string>
+    <string name="pass_lost">¿Contraseña Perdida?</string>
+    <string name="login">Login</string>
+    <string name="connectTEST">Conectar</string>
+</resources>
